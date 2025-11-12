@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #84A493; 
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFB8D1; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 200px; 
+    word-spacing: 1px;
+    line-height: 2rem;
+    color: #283618;
+}
+
+.middle-placeholder {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 200px; 
+    word-spacing: 1px;
+    line-height: 2rem;
+    color: #283618;
+}
+
+.hint {
+    color: #DDFDFE;
+}
+
+.heart-btn {
+    margin: 0;
+    padding: 12px 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.heart-btn button {
+    padding: 12px;
+    border-radius: 25px;
+    border-color: #a4133c;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ff97b7;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.heart-btn button:hover {
+    transform: scale(1.1);
+    background-color: #ff6b81;
+}
