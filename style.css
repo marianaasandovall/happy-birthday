@@ -81,3 +81,65 @@ h1 {
     transform: scale(1.1);
     background-color: #ff6b81;
 }
+
+/*********************** silly pop up css placeholder*********************/
+#pop-up-ad {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #fff;
+  border: 2px solid #ff97b7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: none;
+  z-index: 1000;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#pop-up-ad.show {
+  display: flex;
+}
+
+.pop-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.pop-text h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.pop-text p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.pop-text .small {
+  font-size: 10px;
+  color: gray;
+}
+
+#join-now {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #ff97b7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#close-popup {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+

@@ -34,3 +34,28 @@ items.forEach(item => {
         text.classList.toggle('active');
     });
 });
+
+// -------------------------silly pop up js placeholder v ----------------------- //
+/*
+let popUpCount = 0;
+const maxPopUps = 3;
+
+function showPopUp() {
+  if (popUpCount < maxPopUps) {
+    document.getElementById("pop-up-ad").classList.add("show");
+    popUpCount++;
+  }
+}
+
+setTimeout(showPopUp, 3000);
+
+document.getElementById("close-popup").addEventListener("click", () => {
+  document.getElementById("pop-up-ad").classList.remove("show");
+});
+
+document.getElementById("join-now").addEventListener("click", () => {
+  document.getElementById("pop-up-ad").classList.remove("show");
+  alert("Gotcha! It's just me 😉💖 +1 heart stolen");
+});
+*/
+// -------------------------silly pop up js placeholder^ ----------------------- //
