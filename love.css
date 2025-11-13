@@ -74,7 +74,6 @@ h1 {
     transition: transform 0.2s;
 }
 
-
 .love-text {
     max-height: 0;
     overflow: hidden;
@@ -88,8 +87,24 @@ h1 {
 }
 
 .love-text.active {
-    max-height: 150px;
-    padding: 10px;
+    max-height: 300px;
+    padding: 15px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #DDFDFE #FFB8D1;
+}
+
+.love-text.active::-webkit-scrollbar {
+    width: 6px;
+}
+
+.love-text.active::-webkit-scrollbar-thumb {
+    background-color: #DDFDFE;
+    border-radius: 5px;
+}
+
+.love-text.active::-webkit-scrollbar-track {
+    background-color: #FFB8D1;
 }
 
 @media screen and (max-width: 700px) {
@@ -97,7 +112,8 @@ h1 {
         width: 95%;
     }
     .love-text.active {
-        max-height: 200px;
+        max-height: 400px;
+        font-size: 18px;
     }
 }
 
@@ -108,4 +124,3 @@ h1 {
     margin-top: 10px;
     font-style: italic;
 }
-
