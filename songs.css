@@ -1,0 +1,115 @@
+body {
+  background-color: #84A493;
+  color: #283618;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 80px 20px 20px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #FFB8D1;
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #FFB8D1;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.back-btn a:hover {
+  transform: scale(1.0);
+}
+
+.hint {
+  text-align: center;
+  color: #ffffffd0;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.song-list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.song-item {
+  background: #ffffff90;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  display: flex;
+  gap: 15px;
+}
+
+.album-cover {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.song-right {
+  flex: 1;
+}
+
+.toggle-song {
+  margin: 0;
+  cursor: pointer;
+}
+
+.song-content {
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  transition: max-height .4s ease, padding-top .3s;
+}
+
+.song-item.active .song-content {
+  padding-top: 10px;
+}
+
+audio {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.lyrics-btn {
+  background-color: #ff97b7;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.lyrics-btn:hover {
+  background-color: #ff6b81;
+}
+
+.lyrics {
+  margin-top: 10px;
+  overflow: hidden;
+  max-height: 0;
+  white-space: pre-line;
+  line-height: 1.2rem;
+  transition: max-height .4s ease;
+}
+
+.lyrics.active {
+  max-height: 5000px;
+}

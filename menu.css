@@ -40,28 +40,29 @@ h1 {
 }
 
 .back-btn {
-  margin-top: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .back-btn a {
   text-decoration: none;
   color: white;
-  background-color: #ff97b7;
-  padding: 12px 25px;
-  border-radius: 20px;
-  transition: transform 0.2s, background-color 0.2s;
-  font-size: 14px;
+  background-color: #FFB8D1;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: transform 0.2s;
 }
 
 .back-btn a:hover {
-  background-color: #ff6b81;
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 a:hover {
-    color: #bf0603;
+  color: #bf0603;
 }
