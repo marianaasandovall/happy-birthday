@@ -113,3 +113,21 @@ audio {
 .lyrics.active {
   max-height: 5000px;
 }
+
+.lyrics-btn,
+.english-btn {
+  background-color: #ff97b7;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px; 
+  transition: background-color 0.2s;
+}
+
+.lyrics-btn:hover,
+.english-btn:hover {
+  background-color: #ff6b81;
+}
